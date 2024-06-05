@@ -1,4 +1,4 @@
-mport React from 'react'
+import React from 'react'
 import { useState, useEffect } from 'react'
 
 const url = 'http://localhost:3000/alunos'
@@ -41,5 +41,3 @@ const gerenciamentoAlunos = () => {
     </div>
   )
 }
-
-export default gerenciamentoAlunos
